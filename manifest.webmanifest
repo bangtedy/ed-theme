@@ -1,0 +1,52 @@
+{
+  "$schema": "https://json.schemastore.org/web-manifest",
+  "id": "0f65097e-400b-5d2a-b978-f0707bee172b",
+  "name": "Pengantar Ekonomi Makro",
+  "short_name": "Program Studi Agribisnis",
+  "description": "Tedy Herlambang",
+  "lang": "en-us",
+  "dir": "ltr",
+  "start_url": "/index.html?source=pwa",
+  "display": "fullscreen",
+  "theme_color": "#ffffff",
+  "background_color": "#ffffff",
+  "orientation": "natural",
+  "shortcuts": [  
+    {
+      "name": "Beranda",
+      "short_name" : "home",
+      "url": "/ed-theme/"
+    } ,
+    {
+      "name": "Materi",
+      "short_name" : "about",
+      "url": "/ed-theme/about/"
+    } ,
+    {
+      "name": "Contact",
+      "short_name" : "contact",
+      "url": "/ed-theme/contact/"
+    } ,
+    {
+      "name": "GitHub Project",
+      "short_name" : "github",
+      "url": "https://github.com/bangtedy/"
+    }
+  ],
+  "icons": [
+    {
+      "src": "/icon-192.png",
+      "type": "image/png",
+      "sizes": "192x192",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icon-512.png",
+      "type": "image/png",
+      "sizes": "512x512",
+      "purpose": "any maskable"
+    }
+  ]
+}
+
+
